@@ -7,4 +7,4 @@ RUN	cd && \
     ./install-dependencies.sh && \
     git submodule update --init && \
     ./configure.py --compiler=g++-5 && \
-    ninja
+    ninja -j 1
